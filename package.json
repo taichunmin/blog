@@ -1,27 +1,21 @@
 {
-  "name": "blog",
+  "name": "taichunmin.github.io",
   "version": "1.0.0",
   "description": "Chunmin Tai's blog.",
-  "main": "vuepress build",
-  "repository": "git@github.com:taichunmin/blog.git",
+  "main": "yarn build",
+  "repository": "git@github.com:taichunmin/taichunmin.github.io.git",
   "author": "taichunmin <taichunmin@gmail.com>",
   "license": "CC BY-NC-SA 3.0",
   "private": true,
-  "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build"
-  },
   "devDependencies": {
-    "bootstrap": "^4.1.0",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.3.1",
-    "moment": "^2.22.1",
-    "node-sass": "^4.8.3",
-    "popper.js": "^1.14.3",
-    "pug": "^2.0.3",
+    "node-sass": "^4.12.0",
+    "pug": "^2.0.4",
     "pug-plain-loader": "^1.0.0",
-    "sass-loader": "^7.0.1",
-    "timelinejs3": "^3.4.0",
-    "vuepress": "^0.10.0"
+    "sass-loader": "^7.1.0",
+    "vuepress": "^1.0.1"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   }
 }
