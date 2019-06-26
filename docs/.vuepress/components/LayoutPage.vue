@@ -108,5 +108,5 @@ function flatten (items, res) {
 
 <style lang="sass">
   .my-theme-content
-    padding: 4.5rem 0
+    padding: 2rem 0
 </style>
