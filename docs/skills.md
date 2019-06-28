@@ -1,5 +1,5 @@
 ---
-layout: LayoutPage
+# layout: LayoutPage
 skills:
   - title: Frontend
     icon: chrome

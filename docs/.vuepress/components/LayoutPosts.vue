@@ -43,7 +43,14 @@ export default {
         return true
       })
       return _.orderBy(posts, ['date', 'path'], ['desc', 'asc'])
-    }
+    },
+
+    pageClasses () {
+      const userPageClass = this.$page.frontmatter.pageClass
+      return [
+        userPageClass
+      ]
+    },
   }
 }
 </script>

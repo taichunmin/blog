@@ -14,27 +14,27 @@ module.exports = {
       {
         text: 'Home',
         link: '/',
-        icon: 'home'
+        fa: 'home'
       },
       {
         text: '經歷',
         link: '/experiences',
-        icon: 'history'
+        fa: 'history'
       },
       {
         text: '技能',
         link: '/skills',
-        icon: 'bar-chart-o'
+        fa: 'bar-chart-o'
       },
       {
         text: '作品集',
         link: '/works/',
-        icon: 'file-code-o'
+        fa: 'file-code-o'
       },
       {
         text: '部落格',
         link: '/blog/',
-        icon: 'file-text'
+        fa: 'file-text'
       },
       {
         text: '社交網站',
@@ -60,7 +60,7 @@ module.exports = {
       {
         text: 'Travis CI',
         link: 'https://travis-ci.org/taichunmin/taichunmin.github.io',
-        icon: 'tasks'
+        fa: 'tasks'
       },
     ]
   },

@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import { resolvePage, outboundRE, endingSlashRE } from '@theme/util'
+import { resolvePage, outboundRE, endingSlashRE } from '@parent-theme/util'
 import Navbar from '@theme/components/Navbar.vue'
 export default {
   components: { Navbar },
