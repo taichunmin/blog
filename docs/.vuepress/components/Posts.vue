@@ -1,17 +1,14 @@
 <template lang="pug">
-.theme-container(:class="pageClasses")
-  Navbar
-  .container
-    b-card.my-3(header-bg-variant="secondary", header-text-variant="white", no-body)
-      template(slot="header") #[i.fa.fa-fw.fa-file-text] 文章列表
-      b-list-group(flush)
-        b-list-group-item(v-for="post in posts", :key="post.path", :href="post.path", class="flex-column align-items-start")
-          .d-flex.w-100.justify-content-between
-            h5.mb-1 {{ post.title }}
-            small {{ post.date.format('Y/MM/DD') }}
-          .post-badge(v-if="_.has(post, 'frontmatter.tags')")
-            span.badge.badge-info.mr-1(v-for="tag in _.get(post, 'frontmatter.tags')") {{ tag }}
-          .post-badge-empty(v-else) &nbsp;
+b-card.my-3(header-bg-variant="secondary", header-text-variant="white", no-body)
+  template(slot="header") #[i.fa.fa-fw.fa-file-text] 文章列表
+  b-list-group(flush)
+    b-list-group-item(v-for="post in posts", :key="post.path", :href="post.path", class="flex-column align-items-start")
+      .d-flex.w-100.justify-content-between
+        h5.mb-1 {{ post.title }}
+        small {{ post.date.format('Y/MM/DD') }}
+      .post-badge(v-if="_.has(post, 'frontmatter.tags')")
+        span.badge.badge-info.mr-1(v-for="tag in _.get(post, 'frontmatter.tags')") {{ tag }}
+      .post-badge-empty(v-else) &nbsp;
 </template>
 
 <script>
@@ -43,17 +40,7 @@ export default {
         return true
       })
       return _.orderBy(posts, ['date', 'path'], ['desc', 'asc'])
-    },
-
-    pageClasses () {
-      const userPageClass = this.$page.frontmatter.pageClass
-      return [
-        userPageClass
-      ]
-    },
+    }
   }
 }
 </script>
-
-<style lang="sass" scoped>
-</style>

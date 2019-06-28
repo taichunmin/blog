@@ -37,6 +37,11 @@ module.exports = {
         fa: 'file-text'
       },
       {
+        text: 'Travis CI',
+        link: 'https://travis-ci.org/taichunmin/taichunmin.github.io',
+        fa: 'tasks'
+      },
+      {
         text: '社交網站',
         items: [
           {
@@ -56,11 +61,6 @@ module.exports = {
             link: 'mailto:taichunmin@gmail.com'
           },
         ]
-      },
-      {
-        text: 'Travis CI',
-        link: 'https://travis-ci.org/taichunmin/taichunmin.github.io',
-        fa: 'tasks'
       },
     ]
   },
