@@ -6,7 +6,7 @@
     title: 当前页面的标题
     lang: zh-TW
     description: 当前页面的描述
-    layout: 设置当前页面的布局组件，預設 Layout
+    fluid: true # 设置当前页面的 layout 為 .container-fluid 而不是 .container
     permalink: 参考 https://v1.vuepress.vuejs.org/zh/guide/permalinks.html
     metaTitle: 重写默认的 meta title
     meta:
