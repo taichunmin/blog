@@ -29,3 +29,9 @@ export default {
   }
 }
 </script>
+
+<style lang="sass" scoped>
+.nav-link
+  padding: 0
+</style>
+
