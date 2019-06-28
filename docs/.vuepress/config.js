@@ -10,7 +10,6 @@ module.exports = {
   },
   themeConfig: {
     sidebarDepth: 0,
-    lastUpdated: '最後更新時間：',
     nav: [
       {
         text: 'Home',

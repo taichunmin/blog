@@ -1,22 +1,22 @@
 <template lang="pug">
-  .theme-container(:class="pageClasses")
-    Navbar(v-if="shouldShowNavbar")
-    main.my-page
-      slot(name="page-top")
-      Content.container.my-theme-content
-      .last-updated(v-if="lastUpdated")
-        span.prefix {{ lastUpdatedText }}
-        span.time {{ lastUpdated }}
-      .page-nav(v-if="prev || next")
-        p.inner
-          span.prev(v-if="prev") ← #[router-link.prev(:to="prev.path") {{ prev.title || prev.path }}]
-          span.next(v-if="next") #[router-link.next(:to="next.path") {{ next.title || next.path }}] →
-      slot(name="page-bottom")
+.theme-container(:class="pageClasses")
+  Navbar(v-if="shouldShowNavbar")
+  main.my-page
+    slot(name="page-top")
+    Content.container.my-theme-content
+    .last-updated(v-if="lastUpdated")
+      span.prefix {{ lastUpdatedText }}
+      span.time {{ lastUpdated }}
+    .page-nav(v-if="prev || next")
+      p.inner
+        span.prev(v-if="prev") ← #[router-link.prev(:to="prev.path") {{ prev.title || prev.path }}]
+        span.next(v-if="next") #[router-link.next(:to="next.path") {{ next.title || next.path }}] →
+    slot(name="page-bottom")
 </template>
 
 <script>
-import Navbar from '@theme/components/Navbar.vue'
 import { resolvePage, outboundRE, endingSlashRE } from '@theme/util'
+import Navbar from '@theme/components/Navbar.vue'
 export default {
   components: { Navbar },
 
