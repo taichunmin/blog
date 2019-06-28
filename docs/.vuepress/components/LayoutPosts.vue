@@ -34,7 +34,7 @@ export default {
   computed: {
     posts () {
       // generate this.posts
-      let posts = _.get(this, '$site.pages', [])
+      let posts = this.$site.pages || []
       let blogRegex = /^\/blog\/(\d{4}-\d{1,2}-\d{1,2})-(.*)\.html/i
       posts = _.filter(posts, post => {
         if (!blogRegex.test(post.path)) return false

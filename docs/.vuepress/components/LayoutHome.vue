@@ -20,3 +20,9 @@ export default {
   }
 }
 </script>
+
+<style lang="sass" scoped>
+.home
+  padding-top: 0
+</style>
+
