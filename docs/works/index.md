@@ -1,5 +1,4 @@
 ---
-layout: LayoutPage
 title: 作品集
 works:
 - title: 中興大學機構典藏
