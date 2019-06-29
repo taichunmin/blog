@@ -131,11 +131,11 @@ works:
 - title: 撲克牌 21 點
   img: /images/works/blackjack.png
   desc: 練習 Vue.js 所寫的撲克牌 21 點小遊戲。
-  url: /blackjack.html
+  url: /works/blackjack.html
 - title: 桌遊神機妙算計分板
   img: /images/works/wizard-scoreboard.png
   desc: 為了桌遊神機妙算所寫的記分板程式。
-  url: /wizard-scoreboard.html
+  url: /works/wizard-scoreboard.html
 ---
 # <span class="fa fa-file-code-o fa-fw"></span> 作品集
 

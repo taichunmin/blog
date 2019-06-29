@@ -5,7 +5,6 @@ module.exports = {
   evergreen: true,
   title: '筆記國度',
   markdown: {
-    lineNumbers: true,
     slugify
   },
   themeConfig: {

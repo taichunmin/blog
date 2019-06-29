@@ -1,5 +1,5 @@
 <template lang="pug">
-  .theme-container(:class="pageClasses", @touchstart="onTouchStart", @touchend="onTouchEnd")
+  .theme-container(:class="pageClasses", @touchstart="onTouchStart", @touchend="onTouchEnd", v-cloak)
     Navbar(v-if="shouldShowNavbar", @toggle-sidebar="toggleSidebar")
     .sidebar-mask(@click="toggleSidebar(false)")
     Sidebar(:items="sidebarItems", @toggle-sidebar="toggleSidebar")
@@ -99,3 +99,8 @@ export default {
   }
 }
 </script>
+
+<style lang="sass">
+[v-cloak]
+  display: none
+</style>
