@@ -22,7 +22,9 @@ meta:
 
 廢話不多說，馬上試用看看吧！
 
-[![](https://i.imgur.com/gLaoyur.png)](https://line.me/R/ti/p/%40736cebrk)
+[![](https://i.imgur.com/cP5purz.png)](https://line.me/R/ti/p/%40736cebrk)
+
+加入好友: <https://line.me/R/ti/p/@736cebrk>
 
 > 由於後端採用 Google Cloud Function，為了避免用量過高被收錢，所以有鎖執行上限，如果無回應的話，可以考慮建立自己專用的機器人或是重新傳送訊息試試喔！
 
