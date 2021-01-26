@@ -29,9 +29,9 @@ works:
   img: /images/works/ncov-mask-map.png
   desc: 顯示您附近的藥局及口罩剩餘數量
   url: /pug/ncov-mask-map.html
-- title: 桌遊神機妙算計分板
+- title: 桌遊「神機妙算」
   img: /images/works/wizard-scoreboard.png
-  desc: 為了桌遊神機妙算所寫的記分板程式。
+  desc: 桌遊「神機妙算 Wizard」的電子計分紙
   url: /pug/boardgame-wizard.html
 - title: 撲克牌 21 點
   img: /images/works/blackjack.png
