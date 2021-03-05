@@ -8,18 +8,18 @@
   "license": "CC BY-NC-SA 3.0",
   "private": true,
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.8.0",
-    "bootstrap": "^4.5.3",
+    "@vuepress/plugin-google-analytics": "^1.8.2",
+    "bootstrap": "^4.6.0",
     "font-awesome": "^4.7.0",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "moment": "^2.29.1",
     "node-sass": "^5.0.0",
     "prismjs": "^1.23.0",
-    "pug": "^3.0.0",
+    "pug": "^3.0.2",
     "pug-plain-loader": "^1.1.0",
     "sass-loader": "^10.1.1",
     "transliteration": "^2.2.0",
-    "vuepress": "^1.8.0",
+    "vuepress": "^1.8.2",
     "vuepress-plugin-autometa": "^0.1.13"
   },
   "scripts": {
@@ -30,7 +30,7 @@
     "axios": "^0.21.1",
     "bootstrap-vue": "^2.21.2",
     "fibers": "^5.0.0",
-    "sass": "^1.32.4",
+    "sass": "^1.32.8",
     "vue": "^2.6.12",
     "vuepress-plugin-robots": "^1.0.1",
     "vuepress-plugin-sitemap": "^2.3.1"
