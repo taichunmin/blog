@@ -103,7 +103,7 @@ meta:
 
 選取剛剛下載的 CSV 檔案後，會出現匯入選項的視窗，請選擇「取代目前工作表」、「逗號」、「否」，然後點一下「匯入資料」按鈕：
 
-<img src="https://i.imgur.com/gxtlhNy.png" style="max-width: 480px">
+<img src="https://i.imgur.com/gxtlhNy.png" style="width: 480px">
 
 匯入完成以後，你應該會看到以下的資料內容，在 CSV 的第一行會被當成是變數名稱，所以需要遵守 JavaScript 的變數名稱規則 (中文字也能用)：
 
