@@ -23,6 +23,10 @@ meta:
 
 ## 解除連動中的應用程式
 
+::: tip 2021/04/14 補充：
+現在有一個 LINE URL Scheme 網址可以快速開啟這個頁面，網址是：<https://line.me/R/nv/connectedApps> (請在手機上開啟這個連結)
+:::
+
 首先，打開 LINE 以後，請點下方的「主頁」按鈕，然後在點上方的「齒輪」按鈕進到設定畫面：
 
 | Android | iOS |
