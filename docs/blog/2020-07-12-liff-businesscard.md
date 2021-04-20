@@ -17,11 +17,10 @@ meta:
 有一天看到有人做了 Kotlin 讀書會的宣傳並分享到 LINE 的 chatbot 相關群組內，於是我就靈機一動，因為台灣用 LINE 的人實在是很多，所以可以用這種方式來幫公司做名片，讓公司的同事都可以有看起來很強大很專業的 LINE 數位版名片！
 
 ::: warning
-因為時空變遷，本文章中的範例程式可能已經無法正常運作，僅供參考。
-:::
+因時空環境變遷，本文僅作為歷史留存之用，本文中的範例程式可能無法正常運作，建議您可以參閱以下同系列的文章，或者您也可以直接透過 [Facebook](https://facebook.com/taichunmin) 直接跟我聯繫。
 
-::: tip
-如果您不會寫程式，你可以看我寫的另一篇文章「[不用寫程式也能做 LINE 數位版名片](https://taichunmin.idv.tw/blog/2020-07-21-liff-businesscard.html)」，你也可以直接透過 [Facebook](https://facebook.com/taichunmin) 直接跟我聯繫，讓我有機會為你服務喔！
+1. [「不用寫程式也能做 LINE 數位版名片」](https://taichunmin.idv.tw/blog/2020-07-21-liff-businesscard.html)
+1. [「LINE 數位版名片工作坊」](https://taichunmin.idv.tw/blog/2020-10-14-liff-businesscard-workshop.html)
 :::
 
 ## 準備名片的資料
