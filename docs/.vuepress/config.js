@@ -1,5 +1,4 @@
 const { slugify } = require('transliteration')
-const fiber = require('fibers')
 const sass = require('sass')
 
 module.exports = {
@@ -153,10 +152,7 @@ module.exports = {
           .loader("sass-loader")
           .options({
             implementation: sass,
-            sassOptions: {
-              fiber,
-              indentedSyntax: lang === "sass"
-            }
+            sassOptions: { indentedSyntax: lang === "sass" },
           })
       }
     }
