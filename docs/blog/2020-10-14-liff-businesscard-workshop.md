@@ -209,7 +209,7 @@ LINE 所支援的 Flex 訊息可以做出千變萬化的版面，但由於每個
 
 照前一個章節的步驟，建立一個新的 Google Sheets 來填上這些資料：
 
-```csv
+```
 id,name,image,image_ratio,rating,place,time,tel,website
 1,Brown Cafe,https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png,20:13,4.0,"Miraina Tower, 4-1-6 Shinjuku, Tokyo",10:00 - 23:00,https://linecorp.com,https://linecorp.com
 ```

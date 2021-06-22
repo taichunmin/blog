@@ -12,7 +12,7 @@ tags:
 並自行更改 `JSP_www` 和 `JSP_url`  
 以後就只需要按 Ctrl + F6 即可直接看到結果
 
-```bat
+```batch
 NPP_CONSOLE ?
 npp_save
 set JSP_www = C:\Tomcat 7.0\webapps\ROOT\
