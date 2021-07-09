@@ -4,7 +4,10 @@ title: 看起來很專業的 LINE 數位版名片
 description: 可以用這種方式來幫公司做名片，讓公司的同事都可以有看起來很強大很專業的 LINE 數位版名片！
 image: https://i.imgur.com/PqLcIKj.png
 tags:
+  - 電子名片
   - LINE
+  - LIFF
+  - businesscard
 meta:
   - property: og:image:width
     content: 1200
@@ -156,9 +159,12 @@ function gaScreenView (vcard) {
 :::
 
 * 程式及原始碼
-  * [數位版名片 LIFF 網頁程式](https://taichunmin.idv.tw/pug/liff-businesscard.html)
-  * [數位版名片 LIFF 網頁程式原始碼](https://github.com/taichunmin/pug/blob/master/src/liff-businesscard.pug)
+  * [免費樣版網站 - LINE 數位版名片](https://taichunmin.idv.tw/liff-businesscard/)
+  * [原始碼 - LINE 數位版名片](https://github.com/taichunmin/liff-businesscard)
   * [微程式數位版名片範例 (CSV 及名片樣板)](https://gist.githubusercontent.com/taichunmin/e6123d3ece7c8c88c6064fb9a69857bf)
+  * [不用寫程式也能做 LINE 數位版名片](https://taichunmin.idv.tw/blog/2020-07-21-liff-businesscard.html)
+  * [LINE 數位版名片工作坊](https://taichunmin.idv.tw/blog/2020-10-14-liff-businesscard-workshop.html)
+  * [免費製作電子傳單 (多頁訊息) - LINE 數位版名片](https://taichunmin.idv.tw/blog/2021-07-09-line-card-create-carousel-1.html)
 * 相關連結
   * [跨來源資源共用（CORS）](https://developer.mozilla.org/zh-TW/docs/Web/HTTP/CORS)
   * [Flex Message Simulator 工具](https://developers.line.biz/flex-simulator/)
