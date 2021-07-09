@@ -4,6 +4,7 @@ title: LINE 數位版名片工作坊
 description: 加入新朋友的 LINE 帳號以後，要傳數位版名片才夠潮，來工作坊教你現場製作！
 image: https://i.imgur.com/nswDEvY.png
 tags:
+  - 電子名片
   - LINE
   - LIFF
   - businesscard
@@ -267,6 +268,8 @@ function imgStar (isGold) {
 本文範例程式的原始碼授權為 MIT License，若您有任何疑惑，你可以直接舉手發問或是透過 [Facebook](https://www.facebook.com/taichunmin) 與我聯繫。
 :::
 
-* [數位版名片 免費樣版網站](https://taichunmin.idv.tw/liff-businesscard/)
+* [免費樣版網站 - LINE 數位版名片](https://taichunmin.idv.tw/liff-businesscard/)
+* [原始碼 - LINE 數位版名片](https://github.com/taichunmin/liff-businesscard)
 * [看起來很專業的 LINE 數位版名片](https://taichunmin.idv.tw/blog/2020-07-12-liff-businesscard.html)
 * [不用寫程式也能做 LINE 數位版名片](https://taichunmin.idv.tw/blog/2020-07-21-liff-businesscard.html)
+* [免費製作電子傳單 (多頁訊息) - LINE 數位版名片](https://taichunmin.idv.tw/blog/2021-07-09-line-card-create-carousel-1.html)
