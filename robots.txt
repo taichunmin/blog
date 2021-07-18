@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Sitemap: https:/taichunmin.idv.tw/sitemap.xml
+Host: https://taichunmin.idv.tw
